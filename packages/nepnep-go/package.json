@@ -1,6 +1,6 @@
 {
     "name": "nepnep-go",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "description": "Yet another sql simulator",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
