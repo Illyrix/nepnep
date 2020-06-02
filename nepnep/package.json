@@ -1,0 +1,16 @@
+{
+  "name": "nepnep",
+  "version": "0.0.1",
+  "description": "Yet another sql simulator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/chaos-mesh/nepnep",
+  "author": "Hexilee <lichenxi@pingcap.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.9.3"
+  }
+}
