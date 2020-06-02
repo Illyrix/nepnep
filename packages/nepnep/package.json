@@ -10,7 +10,7 @@
   "repository": "https://github.com/chaos-mesh/nepnep",
   "author": "Hexilee <lichenxi@pingcap.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^3.9.3"
   }
 }

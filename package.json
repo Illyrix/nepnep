@@ -1,12 +1,6 @@
 {
-  "name": "nepnep-go",
-  "version": "0.0.0",
-  "description": "Yet another sql simulator",
-  "main": "index.ts",
-  "repository": "git@github.com:chaos-mesh/nepnep.git",
-  "author": "Hexilee <i@hexilee.me>",
-  "license": "MIT",
-  "dependencies": {
-    "typescript": "^3.9.3"
-  }
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
