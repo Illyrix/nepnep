@@ -8,7 +8,7 @@ export interface DataSet {
   data: () => RowInStorage[]
 }
 
-type DataSetResult = Result<StorageError, DataSet>
+type DataSetResult = Result<DataSet, StorageError>
 
 /**
  *

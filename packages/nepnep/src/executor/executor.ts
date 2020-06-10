@@ -7,7 +7,7 @@ interface ResultNoErr {
   count: number
 }
 
-export type ExecResult = Result<ExecutorError, ResultNoErr>
+export type ExecResult = Result<ResultNoErr, ExecutorError>
 
 export interface Executor {
   execute: (sql: AST, ctx: Context) => ExecResult
