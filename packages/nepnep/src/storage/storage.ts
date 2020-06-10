@@ -1,4 +1,4 @@
-import { StorageError } from '../common/error'
+import { StorageError } from './error'
 import { RowInStorage } from './structure'
 import { Result } from '../common'
 

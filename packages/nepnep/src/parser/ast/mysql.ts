@@ -1,7 +1,4 @@
+import MySQLParser, { SqlMode } from 'ts-mysql-parser'
 import { AST } from './ast'
 
-export class MysqlAST implements AST {
-  public visit = () => {
-    // do nothing
-  }
-}
+export class MysqlAST implements AST {}

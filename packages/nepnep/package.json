@@ -5,12 +5,14 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist"
   },
   "repository": "https://github.com/chaos-mesh/nepnep",
   "author": "Hexilee <lichenxi@pingcap.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^14.0.13",
     "@typescript-eslint/eslint-plugin": "^3.1.0",
     "@typescript-eslint/parser": "^3.1.0",
     "eslint": "^7.2.0",
@@ -19,5 +21,8 @@
     "eslint-plugin-prettier": "^3.1.3",
     "prettier": "^2.0.5",
     "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "ts-mysql-parser": "^0.2.0"
   }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable */
 export interface AST {
-  visit: () => void
+  // visit: () => void
 }

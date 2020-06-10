@@ -1,5 +1,5 @@
 import { AST } from '../parser/ast/ast'
-import { ExecutorError } from '../common/error'
+import { ExecutorError } from './error'
 import { Context } from '../context/context'
 import { Result } from '../common'
 
