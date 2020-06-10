@@ -1,4 +1,4 @@
-import { StorageError, StorageErrorContext } from '../common/error'
+import { StorageError } from '../common/error'
 import { RowInStorage } from './structure'
 import { Result } from '../common'
 
@@ -8,7 +8,7 @@ export interface DataSet {
   data: () => RowInStorage[]
 }
 
-type DataSetResult = Result<StorageError, DataSet, StorageErrorContext>
+type DataSetResult = Result<StorageError, DataSet>
 
 /**
  *
