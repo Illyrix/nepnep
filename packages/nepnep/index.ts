@@ -1,4 +1,5 @@
 import { Parse } from './src/parser/sql'
+import { Mysql, defaultContext } from './src/parser'
 
 export function init() {}
 
